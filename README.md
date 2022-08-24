@@ -7,8 +7,8 @@
 ## For each exam studied on the 3DExperience portal, I store the relevant questions in `.json` files. Below the list of `.json` files:
 | Type | Index | Progress | Contet |
 | :--: | :---: | :------: | :----- |
-| Apriso | 01 | ![](https://img.shields.io/badge/-Done-success) | BPM Use - Level 1 |
-| Apriso | 02 | ![](https://img.shields.io/badge/-Done-success) | Brand Essentials |
+| Apriso | 01 | ![](https://img.shields.io/badge/-Doing-important) | BPM Use - Level 1 |
+| Apriso | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials |
 
 ## For that, I'm storing studied questions in this collection. As webpage struct bellow:
 ```text
