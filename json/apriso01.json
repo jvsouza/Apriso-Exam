@@ -96,5 +96,78 @@
          },
          "number":3
       }
+
+      ,
+      {
+         "title":{
+            "br": "A Barra de Status do Process Builder contém (3 respostas):",
+            "en": "The Process Builder Status Bar contains (3 answers):"
+         },
+         "result": [1,2,3],
+         "options":{
+            "br":[
+               "Link para abrir nova entidade",
+               "Qual servidor está conectado",
+               "Estado de uma entidade",
+               "Informações se uma entidade é editável"
+            ],
+            "en":[
+               "Link to open new entity",
+               "Which server is connected",
+               "Status of an entity",
+               "Information whether an entity is editable"
+            ]
+         },
+         "number":4
+      }
+
+      ,
+      {
+         "title":{
+            "br": "Qual elemento do espaço de trabalho do Process Builder você usaria para projetar a interface gráfica do usuário?",
+            "en": "Which elemento of the Process Builder workspace would you use to design the graphical user interface?"
+         },
+         "result": [2],
+         "options":{
+            "br":[
+               "Navegação de funções",
+               "Gerenciador de tela",
+               "Editor de layout",
+               "Explorador de entidade"
+            ],
+            "en":[
+               "Function navigation",
+               "Screen manager",
+               "Layout editor",
+               "Entity explorer"
+            ]
+         },
+         "number":5
+      }
+
+      ,
+      {
+         "title":{
+            "br": "Para passar um valor de uma função para outra em diferentes etapas dentro de uma operação, você usaria:",
+            "en": "In order to pass a value from one funcion to another in different steps within an operation you would use:"
+         },
+         "result": [2],
+         "options":{
+            "br":[
+               "Parâmetro do sistema",
+               "Variável externa",
+               "Variável de sessão",
+               "Função anterior"
+            ],
+            "en":[
+               "System Parameter",
+               "External variable",
+               "Session variable",
+               "Previous Function"
+            ]
+         },
+         "number":6
+      }
+
    ]
 }
