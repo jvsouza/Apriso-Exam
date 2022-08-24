@@ -1,0 +1,100 @@
+{
+   "contentType":"Apriso",
+   "contentIndex":1,
+   "courseunit":"BPM Use - Level 1",
+   "questions":[
+      {
+         "title": {
+            "br": "Qual tela deve ser usada para modificar as contas de funcionários DELMIA Apriso?",
+            "en": "Which screen should be used to modify DELMIA Apriso Employee accounts?"
+         },
+         "result": [3],
+         "options":{
+            "br":[
+               "Manutenção de pessoal",
+               "Manutenção de conta",
+               "Manutenção do usuário",
+               "Manutenção de funcionários"
+            ],
+            "en":[
+               "Personnel maintenance",
+               "Account maintenance",
+               "User maintenance",
+               "Employee maintenance"
+            ]
+         },
+         "number":0
+      }
+      ,
+      {
+         "title":{
+            "br": "A personalização do DELMIA Apriso Desktop Client permite (3 respostas):",
+            "en": "Personalization of the DELMIA Apriso Desktop Client Allows you to (3 answers):"
+         },
+         "result": [1],
+         "options":{
+            "br":[
+               "Definir o idioma da interface do usuário",
+               "Defina o estilo e o tamanho da fonte",
+               "Defina o fuso horário",
+               "Defina o aplicativo para iniciar automaticamente ao iniciar o Windows"
+            ],
+            "en":[
+               "Set the user interface language",
+               "Set the font style and size",
+               "Set the time zone",
+               "Set the application to automatically start when starting Windows"
+            ]
+         },
+         "number":1
+      }
+
+      ,
+      {
+         "title":{
+            "br": "Por que o DELMIA Apriso Desktop Client Launcher está instalado (2 respostas):",
+            "en": "Why is the DELMIA Apriso Desktop Client Launcher installed (2 answers):"
+         },
+         "result": [0,1],
+         "options":{
+            "br":[
+               "Parte superior aberta Flexparts",
+               "Para registrar o protocolo DELMIA Apriso",
+               "Para poder implantar pacotes GPM",
+               "Para rodar DELMIA Apriso Configuração Central"
+            ],
+            "en":[
+               "To open FlexParts",
+               "To register the DELMIA Apriso protocol",
+               "To be able to deploy GPM packages",
+               "To run DELMIA Apriso Central Configuration"
+            ]
+         },
+         "number":2
+      }
+
+      ,
+      {
+         "title":{
+            "br": "Quando precisamos usar o Process Builder (3 respostas):",
+            "en": "When do we need to use Process Builder (3 answers):"
+         },
+         "result": [0,1,2],
+         "options":{
+            "br":[
+               "Parte superior aberta Flexparts",
+               "Para registrar o protocolo DELMIA Apriso",
+               "Para poder implantar pacotes GPM",
+               "Para rodar DELMIA Apriso Configuração Central"
+            ],
+            "en":[
+               "When exposing a standard operation as a web service",
+               "When implementing new business logic",
+               "When defining or modifying a screen",
+               "When defining a new business process only"
+            ]
+         },
+         "number":3
+      }
+   ]
+}

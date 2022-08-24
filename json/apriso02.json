@@ -1,0 +1,29 @@
+{
+   "contentType":"Apriso",
+   "contentIndex":2,
+   "courseunit":"Brand Essential",
+   "questions":[
+      {
+         "title": {
+            "br" : "ttt_br:",
+            "en": "ttt_en:"
+         },
+         "result": [1,2],
+         "options":{
+            "br":[
+               "opt_0_br",
+               "opt_1_br",
+               "opt_2_br",
+               "opt_3_br"
+            ],
+            "en":[
+               "opt_0_en",
+               "opt_1_en",
+               "opt_2_en",
+               "opt_3_en"
+            ] 
+         },
+         "number":0
+      }
+   ]
+}
