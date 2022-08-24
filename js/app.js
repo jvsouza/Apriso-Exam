@@ -2,8 +2,8 @@
 // ...
 var questions_available = [];
 const letter_up = ["A", "B", "C", "D"];
-//const baseUrl = 'https://raw.githu  busercontent.com/jvsouza/ANAC-Cell/main/json/';
-const baseUrl = 'http://localhost/Apriso-Quiz/json/';
+const baseUrl = 'https://raw.githubusercontent.com/jvsouza/Apriso-Exam/main/json/';
+//const baseUrl = 'http://localhost/Apriso-Quiz/json/';
 const coursesUpdated = {
     "courses_updated":[
         {"file_json":"apriso01", "course_unit":"01 - BPM Use - Level 1"},
