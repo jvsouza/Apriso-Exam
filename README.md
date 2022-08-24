@@ -4,11 +4,17 @@
 ## Collection of test prep study questions for 3DS certification - Delmia Apriso.
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
 
-## For each exam studied on the 3DExperience portal, I store the relevant questions in `.json` files. Below the list of `.json` files:
+## For each exam studied on the 3DExperience portal, I store the relevant questions in `.json` files. Below the list of `.json` filesin context Manufacturing & Operations:
 | Type | Index | Progress | Contet |
 | :--: | :---: | :------: | :----- |
-| Apriso | 01 | ![](https://img.shields.io/badge/-Doing-important) | BPM Use - Level 1 |
-| Apriso | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials |
+| M&O | 01 | ![](https://img.shields.io/badge/-Doing-important) | BPM |
+| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials |
+| M&O | 03 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production |
+| M&O | 04 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance |
+| M&O | 05 | ![](https://img.shields.io/badge/-ToDo-inactive) | Quality |
+| M&O | 06 | ![](https://img.shields.io/badge/-ToDo-inactive) | Repetitive Production |
+| M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Warehouse Shipping |
+| M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor |
 
 ## For that, I'm storing studied questions in this collection. As webpage struct bellow:
 ```text
