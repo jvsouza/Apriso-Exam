@@ -7,7 +7,6 @@ const baseUrl = 'https://raw.githubusercontent.com/jvsouza/Apriso-Exam/main/json
 const coursesUpdated = {
     "courses_updated":[
         {"file_json":"apriso01", "course_unit":"01 - BPM Use - Level 1"},
-        {"file_json":"apriso02", "course_unit":"02 - Brand Essentials"},
     ]
 };
 
