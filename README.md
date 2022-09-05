@@ -5,16 +5,17 @@
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
 
 ## For each exam studied on the 3DExperience portal, I store the relevant questions in `.json` files. Below the list of `.json` filesin context Manufacturing & Operations:
-| Type | Index | Progress | Contet |
-| :--: | :---: | :------: | :----- |
-| M&O | 01 | ![](https://img.shields.io/badge/-Doing-important) | BPM |
-| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials |
-| M&O | 03 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production |
-| M&O | 04 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance |
-| M&O | 05 | ![](https://img.shields.io/badge/-ToDo-inactive) | Quality |
-| M&O | 06 | ![](https://img.shields.io/badge/-ToDo-inactive) | Repetitive Production |
-| M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Warehouse Shipping |
-| M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor |
+| Type | Index | Progress | Contet | Duration |
+| :--: | :---: | :------: | :----- | :------: |
+| M&O | 01 | ![](https://img.shields.io/badge/-ToDo-inactive) | Articulate Level 1 | 8 hours |
+| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials | 3.5 hours |
+| M&O | 03 | ![](https://img.shields.io/badge/-Doing-important) | BPM - Use Level 1 | 40 hours | 
+| M&O | 04 | ![](https://img.shields.io/badge/-ToDo-inactive) | Repetitive Production - Use Level 1 | 30 hours |
+| M&O | 05 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
+| M&O | 06 | ![](https://img.shields.io/badge/-ToDo-inactive) | Warehouse Shipping - Use Level 1 | 20 hours |
+| M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Quality - Use Level 1 | 30 hours |
+| M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance - Use Level 1 | 20 hours |
+| M&O | 09 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor | 20 hours |
 
 ## For that, I'm storing studied questions in this collection. As webpage struct bellow:
 ```text

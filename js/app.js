@@ -1,5 +1,6 @@
 
 // ...
+var keyPass = '' ;
 var questions_available = [];
 const letter_up = ["A", "B", "C", "D"];
 const baseUrl = 'https://raw.githubusercontent.com/jvsouza/Apriso-Exam/main/json/';
@@ -36,13 +37,13 @@ function createList() {
                                         list += '<div class="titles_item">';
                                             list += '<div class="bandeira"><img src="img/flag_en.png" /></div>';
                                             list += '<div class="title_text">';
-                                                list += questions[n].title["en"];
+                                                list += decryptText(questions[n].title["en"], keyPass);
                                             list += '</div>';
                                         list += '</div>';
                                         list += '<div class="titles_item">';
                                             list += '<div class="bandeira"><img src="img/flag_br.png" /></div>';
                                             list += '<div class="title_text">';                                        
-                                                list += questions[n].title["br"];
+                                                list += decryptText(questions[n].title["br"], keyPass);
                                             list += '</div>';
                                         list += '</div>';
                                     list += '</div>';
@@ -57,10 +58,8 @@ function createList() {
                                 list += '<button type="button" class="list-group-item list-group-item-action button_itens" value="'+ i +'">';
                                     list += '<div class="letter_up">' + letter_up[i] + '</div>';
                                     list += '<div class="questions_itens">';
-                                        //list += '<div class="question_item"><div class="bandeira"><img src="img/flag_en.png" /></div><div class="question_text">' + decryptText(questions[n].options["en"][i]) + '</div></div>';
-                                        //list += '<div class="question_item"><div class="bandeira"><img src="img/flag_br.png" /></div><div class="question_text">' + decryptText(questions[n].options["br"][i]) + '</div></div>';
-                                        list += '<div class="question_item"><div class="bandeira"><img src="img/flag_en.png" /></div><div class="question_text">' + questions[n].options["en"][i] + '</div></div>';
-                                        list += '<div class="question_item"><div class="bandeira"><img src="img/flag_br.png" /></div><div class="question_text">' + questions[n].options["br"][i] + '</div></div>';                                        
+                                        list += '<div class="question_item"><div class="bandeira"><img src="img/flag_en.png" /></div><div class="question_text">' + decryptText(questions[n].options["en"][i], keyPass) + '</div></div>';
+                                        list += '<div class="question_item"><div class="bandeira"><img src="img/flag_br.png" /></div><div class="question_text">' + decryptText(questions[n].options["br"][i], keyPass) + '</div></div>';                                        
                                     list += '</div>';
                                 list += '</button>';
                             }
@@ -103,6 +102,7 @@ function createSelect( baseUrl, cu ){
 // ...
 function checkKeyView(){
     let keyView = $("#encry_key").val();
+    keyPass = keyView;
     let textTest = "U2FsdGVkX19cv8qTrbFUdx8+8tRyanlSr/1+QWh9A2A=";
     let decryptedText = CryptoJS.AES.decrypt(textTest, keyView);
     let decryptedString = decryptedText.toString(CryptoJS.enc.Utf8);
@@ -127,8 +127,7 @@ $(document).ready(function(){
 
     // ...
     $(document).on("change","#select",function(){
-        //if (checkKeyView() == true ) {
-        if ( true == true ) {
+        if (checkKeyView() == true) {
             let nameJson = $(this).val();
             $("#questions").empty();
             if (nameJson != 'title'){
@@ -144,13 +143,4 @@ $(document).ready(function(){
     // ...
     createSelect( baseUrl, coursesUpdated );
 
-    // ...
-    $("#encry_action").click(function(){
-        let key = $("#encry_key").val();
-        let text_encrypt_not = $("#encry_not").val();
-        let text_encrypt_yes = CryptoJS.AES.encrypt(text_encrypt_not, key);
-        $("#encry_yes").val(text_encrypt_yes);
-        $("#dencrpyted").val(decryptText(text_encrypt_yes));
-
-    });
 });
