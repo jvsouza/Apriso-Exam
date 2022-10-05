@@ -8,8 +8,8 @@
 | Type | Index | Progress | Contet | Duration |
 | :--: | :---: | :------: | :----- | :------: |
 | M&O | 01 | ![](https://img.shields.io/badge/-ToDo-inactive) | Articulate Level 1 | 8 hours |
-| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials | 3.5 hours |
-| M&O | 03 | ![](https://img.shields.io/badge/-Doing-important) | BPM - Use Level 1 | 40 hours | 
+| M&O | 02 | ![](https://img.shields.io/badge/-Doing-important) | Brand Essentials | 3.5 hours |
+| M&O | 03 | ![](https://img.shields.io/badge/-Done-success) | BPM - Use Level 1 | 40 hours | 
 | M&O | 04 | ![](https://img.shields.io/badge/-ToDo-inactive) | Repetitive Production - Use Level 1 | 30 hours |
 | M&O | 05 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
 | M&O | 06 | ![](https://img.shields.io/badge/-ToDo-inactive) | Warehouse Shipping - Use Level 1 | 20 hours |
