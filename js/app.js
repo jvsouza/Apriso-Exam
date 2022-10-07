@@ -41,7 +41,7 @@ function createList() {
                                                 list += decryptText(questions[n].title["en"], keyPass);
                                             list += '</div>';
                                         list += '</div>';
-                                        list += '<div class="titles_item">';
+                                        list += '<div class="titles_item traduzir">';
                                             list += '<div class="bandeira"><img src="img/flag_br.png" /></div>';
                                             list += '<div class="title_text">';                                        
                                                 list += decryptText(questions[n].title["br"], keyPass);
@@ -60,7 +60,7 @@ function createList() {
                                     list += '<div class="letter_up">' + letter_up[i] + '</div>';
                                     list += '<div class="questions_itens">';
                                         list += '<div class="question_item"><div class="bandeira"><img src="img/flag_en.png" /></div><div class="question_text">' + decryptText(questions[n].options["en"][i], keyPass) + '</div></div>';
-                                        list += '<div class="question_item"><div class="bandeira"><img src="img/flag_br.png" /></div><div class="question_text">' + decryptText(questions[n].options["br"][i], keyPass) + '</div></div>';                                        
+                                        list += '<div class="question_item traduzir"><div class="bandeira"><img src="img/flag_br.png" /></div><div class="question_text">' + decryptText(questions[n].options["br"][i], keyPass) + '</div></div>';                                        
                                     list += '</div>';
                                 list += '</button>';
                             }
@@ -138,6 +138,14 @@ $(document).ready(function(){
             let alertMessage = '<div class="alert alert-danger  alert-dismissible fade show text-center" role="alert">Key view <strong>incorrect</strong> !<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
             $("#mensagem").html(alertMessage);
             $("#questions").empty();
+        }
+    });
+
+    $('#translate').change(function() {
+        if ( $('#translate').is(':checked') ) {
+            $(".traduzir").addClass("showPtBr");
+        } else {
+            $(".traduzir").removeClass("showPtBr");
         }
     });
 
