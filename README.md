@@ -1,5 +1,5 @@
 # Apriso-Exam
-![Progress](https://progress-bar.dev/9/?title=Completed%20&width=160&color=54aeff)
+![Progress](https://progress-bar.dev/18/?title=Completed%20&width=160&color=54aeff)
 
 ## Collection of test prep study questions for 3DS certification - Delmia Apriso.
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
@@ -8,11 +8,11 @@
 | Type | Index | Progress | Contet | Duration |
 | :--: | :---: | :------: | :----- | :------: |
 | M&O | 01 | ![](https://img.shields.io/badge/-ToDo-inactive) | Articulate Level 1 | 8 hours |
-| M&O | 02 | ![](https://img.shields.io/badge/-Doing-important) | Brand Essentials | 3.5 hours |
+| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Brand Essentials | 3.5 hours |
 | M&O | 03 | ![](https://img.shields.io/badge/-Done-success) | BPM - Use Level 1 | 40 hours | 
-| M&O | 04 | ![](https://img.shields.io/badge/-ToDo-inactive) | Repetitive Production - Use Level 1 | 30 hours |
+| M&O | 04 | ![](https://img.shields.io/badge/-Done-success) | Repetitive Production - Use Level 1 | 30 hours |
 | M&O | 05 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
-| M&O | 06 | ![](https://img.shields.io/badge/-ToDo-inactive) | Warehouse Shipping - Use Level 1 | 20 hours |
+| M&O | 06 | ![](https://img.shields.io/badge/-Doing-important) | Warehouse Shipping - Use Level 1 | 20 hours |
 | M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Quality - Use Level 1 | 30 hours |
 | M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance - Use Level 1 | 20 hours |
 | M&O | 09 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor | 20 hours |
@@ -34,8 +34,10 @@ page
 │   ├── bootstrap.min.js.map
 │   └── jquery.min.py
 ├── json
-│   ├── apriso01.json
-│   └── apriso02.json
+│   ├── apriso02.json
+│   ├── apriso03.json
+│   ├── apriso04.json
+│   └── apriso06.json
 ├── encrypt.html
 ├── favicon.png
 ├── index.html

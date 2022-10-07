@@ -7,7 +7,8 @@ const baseUrl = 'https://raw.githubusercontent.com/jvsouza/Apriso-Exam/main/json
 //const baseUrl = 'http://localhost/Apriso-Quiz/json/';
 const coursesUpdated = {
     "courses_updated":[
-        {"file_json":"apriso01", "course_unit":"01 - BPM Use - Level 1"},
+        { "file_json":"apriso03", "course_unit":"03 - BPM - Use Level 1" },
+        { "file_json":"apriso04", "course_unit":"04 - Repetitive Production - Use Level 1" },
     ]
 };
 
