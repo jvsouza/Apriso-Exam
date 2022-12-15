@@ -16,7 +16,7 @@
 | M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance - Use Level 1 | 20 hours |
 | M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Foundation - Use | 20 hours |
 | M&O | 09 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
-| M&O | 10 | ![](https://img.shields.io/badge/-Doing-important) | Quality - Use Level 1 | 30 hours |
+| M&O | 10 | ![](https://img.shields.io/badge/-Done-success) | Quality - Use Level 1 | 30 hours |
 | M&O | 11 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor | 20 hours |
 
 ## For that, I'm storing studied questions in this collection. As webpage struct bellow:
@@ -36,9 +36,10 @@ page
 │   ├── bootstrap.min.js.map
 │   └── jquery.min.py
 ├── json
-│   ├── apriso01.json
-│   ├── apriso04.json
-│   └── apriso05.json
+│   ├── apriso01.json (brand)
+│   ├── apriso04.json (bpm)
+│   ├── apriso05.json (repetitive)
+│   └── apriso10.json (quality)
 ├── encrypt.html
 ├── favicon.png
 ├── index.html
