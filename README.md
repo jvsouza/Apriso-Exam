@@ -12,7 +12,7 @@
 | M&O | 03 | ![](https://img.shields.io/badge/-Doing-important) | Demonstrate Level 1 | 8 hours |
 | M&O | 04 | ![](https://img.shields.io/badge/-Done-success) | BPM - Use Level 1 | 40 hours | 
 | M&O | 05 | ![](https://img.shields.io/badge/-Done-success) | Repetitive Production - Use Level 1 | 30 hours |
-| M&O | 06 | ![](https://img.shields.io/badge/-Doing-important) | Warehouse Shipping - Use Level 1 | 20 hours |
+| M&O | 06 | ![](https://img.shields.io/badge/-Done-success) | Warehouse Shipping - Use Level 1 | 20 hours |
 | M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance - Use Level 1 | 20 hours |
 | M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Foundation - Use | 20 hours |
 | M&O | 09 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
@@ -39,6 +39,7 @@ page
 │   ├── apriso01.json (brand)
 │   ├── apriso04.json (bpm)
 │   ├── apriso05.json (repetitive)
+│   ├── apriso06.json (warehouse)
 │   └── apriso10.json (quality)
 ├── encrypt.html
 ├── favicon.png
