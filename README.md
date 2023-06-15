@@ -1,5 +1,5 @@
 # Apriso-Exam
-![Progress](https://progress-bar.dev/27/?title=Completed%20&width=160&color=54aeff)
+![Progress](https://progress-bar.dev/54/?title=Completed%20&width=160&color=54aeff)
 
 ## Collection of test prep study questions for 3DS certification - Delmia Apriso.
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
