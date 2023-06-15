@@ -8,14 +8,14 @@
 | Type | Index | Progress | Contet | Duration |
 | :--: | :---: | :------: | :----- | :------: |
 | M&O | 01 | ![](https://img.shields.io/badge/-Done-success) | Brand Essentials | 3.5 hours |
-| M&O | 02 | ![](https://img.shields.io/badge/-ToDo-inactive) | Articulate Level 1 | 8 hours |
+| M&O | 02 | ![](https://img.shields.io/badge/-Done-success) | Articulate Level 1 | 8 hours |
 | M&O | 03 | ![](https://img.shields.io/badge/-Doing-important) | Demonstrate Level 1 | 8 hours |
 | M&O | 04 | ![](https://img.shields.io/badge/-Done-success) | BPM - Use Level 1 | 40 hours | 
 | M&O | 05 | ![](https://img.shields.io/badge/-Done-success) | Repetitive Production - Use Level 1 | 30 hours |
 | M&O | 06 | ![](https://img.shields.io/badge/-Done-success) | Warehouse Shipping - Use Level 1 | 20 hours |
 | M&O | 07 | ![](https://img.shields.io/badge/-ToDo-inactive) | Maintenance - Use Level 1 | 20 hours |
 | M&O | 08 | ![](https://img.shields.io/badge/-ToDo-inactive) | Foundation - Use | 20 hours |
-| M&O | 09 | ![](https://img.shields.io/badge/-ToDo-inactive) | Complex Assembly Production - Use Level | 20 hours |
+| M&O | 09 | ![](https://img.shields.io/badge/-Doing-important) | Complex Assembly Production - Use Level | 20 hours |
 | M&O | 10 | ![](https://img.shields.io/badge/-Done-success) | Quality - Use Level 1 | 30 hours |
 | M&O | 11 | ![](https://img.shields.io/badge/-ToDo-inactive) | Time & Labor | 20 hours |
 
@@ -37,6 +37,7 @@ page
 │   └── jquery.min.py
 ├── json
 │   ├── apriso01.json (brand)
+│   ├── apriso02.json (articulate)
 │   ├── apriso04.json (bpm)
 │   ├── apriso05.json (repetitive)
 │   ├── apriso06.json (warehouse)
