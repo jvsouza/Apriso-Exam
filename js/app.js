@@ -12,6 +12,7 @@ const coursesUpdated = {
         { "file_json":"apriso04", "course_unit":"04 - BPM - Use Level 1" },
         { "file_json":"apriso05", "course_unit":"05 - Repetitive Production - Use Level 1" },
         { "file_json":"apriso06", "course_unit":"06 - WareHouse Shipping - Use Level 1" },
+        { "file_json":"apriso09", "course_unit":"09 - Complex Assembly Production - Use Level 1" },
         { "file_json":"apriso10", "course_unit":"10 - Quality - Use Level 1" }
     ]
 };
