@@ -9,6 +9,7 @@ const coursesUpdated = {
     "courses_updated":[
         { "file_json":"apriso01", "course_unit":"01 - Brand Essential" },
         { "file_json":"apriso02", "course_unit":"02 - Articulate" },
+        { "file_json":"apriso01", "course_unit":"03 - Essentials - Demonstrate" },
         { "file_json":"apriso04", "course_unit":"04 - BPM - Use Level 1" },
         { "file_json":"apriso05", "course_unit":"05 - Repetitive Production - Use Level 1" },
         { "file_json":"apriso06", "course_unit":"06 - WareHouse Shipping - Use Level 1" },

@@ -1,5 +1,5 @@
 # Apriso-Exam
-![Progress](https://progress-bar.dev/72/?title=Completed%20&width=160&color=54aeff)
+![Progress](https://progress-bar.dev/82/?title=Completed%20&width=160&color=54aeff)
 
 ## Collection of test prep study questions for 3DS certification - Delmia Apriso.
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
@@ -9,7 +9,7 @@
 | :--: | :---: | :------: | :----- | :------: |
 | M&O | 01 | ![](https://img.shields.io/badge/-Done-success) | Brand Essentials | 3.5 hours |
 | M&O | 02 | ![](https://img.shields.io/badge/-Done-success) | Articulate Level 1 | 8 hours |
-| M&O | 03 | ![](https://img.shields.io/badge/-Doing-important) | Demonstrate Level 1 | 8 hours |
+| M&O | 03 | ![](https://img.shields.io/badge/-Done-success) | Essentials Demonstrate Level 1 | 4 hours |
 | M&O | 04 | ![](https://img.shields.io/badge/-Done-success) | BPM - Use Level 1 | 40 hours | 
 | M&O | 05 | ![](https://img.shields.io/badge/-Done-success) | Repetitive Production - Use Level 1 | 30 hours |
 | M&O | 06 | ![](https://img.shields.io/badge/-Done-success) | Warehouse Shipping - Use Level 1 | 20 hours |
@@ -38,6 +38,7 @@ page
 ├── json
 │   ├── apriso01.json (brand)
 │   ├── apriso02.json (articulate)
+│   ├── apriso03.json (essentials)
 │   ├── apriso04.json (bpm)
 │   ├── apriso05.json (repetitive)
 │   ├── apriso06.json (warehouse)
