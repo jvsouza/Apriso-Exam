@@ -14,7 +14,7 @@
 | M&O | 05 | ![](https://img.shields.io/badge/-Done-success) | Repetitive Production - Use Level 1 | 30 hours |
 | M&O | 06 | ![](https://img.shields.io/badge/-Done-success) | Warehouse Shipping - Use Level 1 | 20 hours |
 | M&O | 07 | ![](https://img.shields.io/badge/-Done-success) | Maintenance - Use Level 1 | 20 hours |
-| M&O | 08 | ![](https://img.shields.io/badge/-Doing-important) | Foundation - Use | 20 hours |
+| M&O | 08 | ![](https://img.shields.io/badge/-Done-success) | Foundation - Use | 20 hours |
 | M&O | 09 | ![](https://img.shields.io/badge/-Done-success) | Complex Assembly Production - Use Level | 20 hours |
 | M&O | 10 | ![](https://img.shields.io/badge/-Done-success) | Quality - Use Level 1 | 30 hours |
 | M&O | 11 | ![](https://img.shields.io/badge/-Doing-important) | Time & Labor | 20 hours |
@@ -43,6 +43,7 @@ page
 │   ├── apriso05.json (repetitive)
 │   ├── apriso06.json (warehouse)
 │   ├── apriso07.json (maintenance)
+│   ├── apriso08.json (foundation)
 │   ├── apriso09.json (complex)
 │   └── apriso10.json (quality)
 ├── encrypt.html
