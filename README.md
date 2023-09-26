@@ -1,5 +1,5 @@
 # Apriso-Exam
-![Progress](https://progress-bar.dev/91/?title=Completed%20&width=160&color=54aeff)
+![Progress](https://progress-bar.dev/100/?title=Completed%20&width=160&color=54aeff)
 
 ## Collection of test prep study questions for 3DS certification - Delmia Apriso.
 > [As specified by 3DS](https://www.3ds.com/products-services/delmia/products/delmia-apriso/), the Delmia Apriso product features a set of certificates that can be obtained through examination.
@@ -17,7 +17,7 @@
 | M&O | 08 | ![](https://img.shields.io/badge/-Done-success) | Foundation - Use | 20 hours |
 | M&O | 09 | ![](https://img.shields.io/badge/-Done-success) | Complex Assembly Production - Use Level | 20 hours |
 | M&O | 10 | ![](https://img.shields.io/badge/-Done-success) | Quality - Use Level 1 | 30 hours |
-| M&O | 11 | ![](https://img.shields.io/badge/-Doing-important) | Time & Labor | 20 hours |
+| M&O | 11 | ![](https://img.shields.io/badge/-Done-success) | Time & Labor | 20 hours |
 
 ## For that, I'm storing studied questions in this collection. As webpage struct bellow:
 ```text
@@ -45,7 +45,8 @@ page
 │   ├── apriso07.json (maintenance)
 │   ├── apriso08.json (foundation)
 │   ├── apriso09.json (complex)
-│   └── apriso10.json (quality)
+│   ├── apriso10.json (quality)
+│   └── apriso11.json (time&labor)
 ├── encrypt.html
 ├── favicon.png
 ├── index.html
